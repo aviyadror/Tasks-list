@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Simple Javascript To Do List
+    </title>
+    
+    
+</head>
+
+<body>
+    <div id="todo-wrap">
+        <!-- (A) HEADER -->
+        <h1>MY TASKS LIST</h1>
+
+        <!-- (B) ADD NEW ITEM -->
+        <div id="todo-add">
+            <input type="text" value=" " id="todo-item" placeholder="New Task" required />
+            <button id="todo-save">&#10010;</button>
+        </div>
+
+        <!-- (C) DELETE ITEMS -->
+        <div id="todo-del">
+            <input type="button" value="Delete All" id="todo-delall" />
+            <input type="button" value="Delete Completed" id="todo-delcom" />
+        </div>
+
+        <!-- (D) LIST ITEMS -->
+        <div id="todo-list"></div>
+    </div>
+    
+    <link href="style.css" rel="stylesheet">
+    <script src="sol.js"></script>
+</body>
+
+</html>

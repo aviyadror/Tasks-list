@@ -1,0 +1,151 @@
+/* (A) GENERAL FORM STYLES */
+#todo-wrap input {
+    box-sizing: border-box;
+}
+
+#todo-wrap input {
+    padding: 10px;
+}
+
+.btnDone{
+    color: white;
+    float: right;
+    width: 10%;
+    height: 6.9vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 0rem;
+    text-align: center; 
+    background-color: #4AA53D;
+    direction: rtl;
+    align-items: center;
+    padding-top: 0rem;
+}
+
+.doneClass{
+    background-color: rgb(130, 228, 168);
+    text-decoration-line: line-through;
+    margin: 1rem;
+    width: 85%;
+    /* padding: 1rem;; */
+    padding-bottom: 0px;
+}
+
+.todoVal{
+    width: 85%;
+    /* padding-bottom: 30px; */
+    padding-bottom: 0px;
+    background-color: rgb(224, 222, 219);
+    margin: 1rem;
+}
+
+
+/* .taskPost{
+    background-color: rgb(224, 222, 219);
+    padding: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    padding-bottom: 0px;
+ 
+
+} */
+
+#todo-wrap input[type=button],
+#todo-wrap input[type=submit] {
+    color: #fff;
+    cursor: pointer;
+}
+
+/* (B) WHOLE CONTAINER */
+#todo-wrap {
+    max-width: 500px;
+    background: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* (C) HEADER  */
+#todo-wrap h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+/* (D) ADD ITEM  */
+#todo-add {
+    display: flex;
+}
+
+#todo-item {
+    width: 85%;
+}
+
+#todo-save {
+    width: 15%;
+    background: #5866CF;
+    border: 2px solid #5866CF;
+}
+
+/* (E) DELETE ITEMS */
+#todo-del {
+    margin: 10px 0;
+}
+
+#todo-del input {
+    background: #CF585C;
+    border: 2px solid #CF585C;
+}
+
+/* (F) LIST ITEMS */
+/* (F1) ITEM ROW */
+.todo-row {
+    display: flex;
+    margin-top: 10px;
+}
+
+/* (F2) ITEM TEXT */
+.todo-item {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+
+.todo-item.cx {
+    background: #FFE1D7;
+    text-decoration: line-through;
+}
+
+.todo-item.done {
+    background: #DCFFD7;
+    text-decoration: line-through;
+}
+
+/* (F3) CANCEL AND OK BUTTONS */
+.todo-cx,
+.todo-ok {
+    width: 50px;
+}
+
+.todo-cx {
+    background: #CF585C;
+    border: 2px solid #CF585C;
+}
+
+.todo-ok {
+    background: #4AA53D;
+    border: 2px solid #4AA53D;
+}
+
+/* (G) DOES NOT MATTER */
+html,
+body,
+input {
+    font-family: arial, sans-serif;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
