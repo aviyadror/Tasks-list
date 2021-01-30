@@ -6,6 +6,7 @@ let todoList:any = <HTMLInputElement>document.querySelector('#todo-list');
 let todoSave = document.querySelector('#todo-save');
 let arrRemove:Array<Task> = []
 let count:number = 0;
+console.log("chnget to git")
 let arrTasks:Array<Task>; 
 dellAll.addEventListener("click",deleteAll)
 dellComp.addEventListener("click",deleteComp)
