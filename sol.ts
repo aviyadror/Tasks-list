@@ -6,7 +6,6 @@ let todoList:any = <HTMLInputElement>document.querySelector('#todo-list');
 let todoSave = document.querySelector('#todo-save');
 let arrRemove:Array<Task> = []
 let count:number = 0;
-console.log("chnget to git")
 let arrTasks:Array<Task>; 
 dellAll.addEventListener("click",deleteAll)
 dellComp.addEventListener("click",deleteComp)
@@ -97,7 +96,7 @@ function addTask():void {
 
     // localStorage.clear();
     let val:string = (<HTMLInputElement>toDoItem).value
-    if(!val) return //disable task without value
+    if(val==undefined) return //disable task without value
     else{
     let id:number=arrTasks.length
     let newTask = new Task(id,(<HTMLInputElement>toDoItem).value)
